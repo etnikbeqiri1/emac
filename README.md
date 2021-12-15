@@ -4,9 +4,11 @@
 ---
 
 > Dashboard View
+***
 ![dashboard](https://raw.githubusercontent.com/etnikbeqiri1/emac/main/assets/dashboard.png)
 
 ---
 
 > Add Admin/Profesor
+***
 ![add_user](https://raw.githubusercontent.com/etnikbeqiri1/emac/main/assets/add_user.png)
