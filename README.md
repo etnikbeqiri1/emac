@@ -7,7 +7,28 @@ Dashboard View
 ![dashboard](https://raw.githubusercontent.com/etnikbeqiri1/emac/main/assets/dashboard.png)
 
 ---
-
 Add Admin/Profesor
 ***
 ![add_user](https://raw.githubusercontent.com/etnikbeqiri1/emac/main/assets/add_user.png)
+
+---
+List of Students and Groups
+***
+![student_list](https://raw.githubusercontent.com/etnikbeqiri1/emac/main/assets/student_list.png)
+
+---
+Question Screen
+***
+![question_screen](https://raw.githubusercontent.com/etnikbeqiri1/emac/main/assets/question_screen.png)
+
+---
+Generate Exams
+***
+![exam_generate](https://raw.githubusercontent.com/etnikbeqiri1/emac/main/assets/exam_generate.png)
+
+---
+Example of Exam Output PDF
+***
+![exam_pdf](https://raw.githubusercontent.com/etnikbeqiri1/emac/main/assets/exam_pdf.png)
+
+
