@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="758.0" prefWidth="1495.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainScreenController">
+   <children>
+      <Pane prefHeight="778.0" prefWidth="377.0" style="-fx-background-color: #074C9D;">
+         <children>
+            <ImageView layoutX="45.0" layoutY="29.0">
+               <image>
+                  <Image url="@images/logo.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="145.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exams Manager and Creator" wrappingWidth="165.689453125">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <VBox fx:id="vbox" layoutX="41.0" layoutY="130.0" onMouseClicked="#vboxClick" prefHeight="616.0" prefWidth="296.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="subPanel" layoutX="389.0" layoutY="14.0" prefHeight="727.0" prefWidth="1094.0" style="-fx-background-color: white;" />
+   </children>
+</Pane>

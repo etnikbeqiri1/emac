@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="243.0" prefWidth="466.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddExamScreenController">
+   <children>
+      <TextField fx:id="examName" layoutX="53.0" layoutY="93.0" prefHeight="62.0" onAction="#add" prefWidth="361.0" promptText="Exam Name" style="-fx-background-color: white; -fx-border-color: #112D4E; -fx-border-width: 3;" />
+      <Button layoutX="237.0" layoutY="165.0" mnemonicParsing="false" onAction="#add" prefHeight="47.0" prefWidth="179.0" style="-fx-background-color: #074C9D;" text="Add" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="164.0" layoutY="31.0" prefHeight="43.0" prefWidth="147.0" text="Add Exam">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorMessage" alignment="TOP_LEFT" layoutX="53.0" layoutY="484.0" prefHeight="47.0" prefWidth="179.0" textFill="#fc0000" wrapText="true" />
+   </children>
+</Pane>
