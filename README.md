@@ -7,7 +7,7 @@ Dashboard View
 ![dashboard](https://raw.githubusercontent.com/etnikbeqiri1/emac/main/assets/dashboard.png)
 
 ---
-Add Admin/Profesor
+Add Admin/Profesor (_Only *ADMIN* Role_)
 ***
 ![add_user](https://raw.githubusercontent.com/etnikbeqiri1/emac/main/assets/add_user.png)
 
